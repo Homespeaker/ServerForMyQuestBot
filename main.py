@@ -80,7 +80,7 @@ def otvetka(message):
                     bot.send_message(message.chat.id, fulltexts["23"], photo('media/23.png'))
                     full[str(message.from_user.id)]['number_question'] = ""
                 if message.text == 'Попытаться тихонько пройти мимо.':
-                    bot.send_message(message.chat.id, fulltexts["232"], photo('media/232.png'), reply_markup=end)
+                    bot.send_message(message.chat.id, fulltexts["232"], photo('media/232.jpg'), reply_markup=end)
                     bot.send_message(message.chat.id, fulltexts["23"], photo('media/23.png'))
                     full[str(message.from_user.id)]['number_question'] = ""
         else:
